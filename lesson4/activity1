@@ -1,0 +1,9 @@
+student1=156
+student2=175
+student3=132
+student4=160
+student5=190
+student6=143
+sum = student1+student2+student3+student4+student5+student6
+average=sum/6
+print("the average of class height is :",average)
