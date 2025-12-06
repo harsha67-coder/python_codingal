@@ -1,0 +1,7 @@
+amount=int(input("enter the amount here :"))
+note_500=(amount)//500
+note_100=(amount%500)//100
+note_10=((amount%500)%100)//10
+print("no.of 500 rupee notes are:",note_500)
+print("no.of 100 rupee notes are:",note_100)
+print("no.of 10 rupee notes are:",note_10)
