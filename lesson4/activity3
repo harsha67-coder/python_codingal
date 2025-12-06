@@ -1,0 +1,9 @@
+eng=int(input("enter the marks of english here :"))
+science=int(input("enter the marks ofscience here :"))
+math=int(input("enter the marks of math here :"))
+social=int(input("enter the marks of social here :"))
+tamil=int(input("enter the marks of tamil here :"))
+percentage = ((eng+science+math+social+tamil)/500)*100
+print("the percentage is:",percentage)
+average = ((eng+science+math+social+tamil)/5)
+print("the average of marks is :",average)
