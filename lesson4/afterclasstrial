@@ -1,0 +1,5 @@
+import math
+print("WELCOME TO SHIYA's SQAURE ROOT FINDER")
+num=int(input("enter the number to be squared here :"))
+ans=(math.sqrt(num))
+print(ans)
