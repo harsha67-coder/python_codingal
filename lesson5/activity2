@@ -1,0 +1,8 @@
+actual_amount=float(input("enter the actual price here :"))
+sale_price=float(input("enter the sold price here :"))
+if actual_amount>sale_price:
+    print("u have made loss of :MRP",actual_amount-sale_price)
+elif sale_price > actual_amount:
+    print("u have made profit of : MRP",sale_price -actual_amount)
+else:
+    print("no profit nor loss")
