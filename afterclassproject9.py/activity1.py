@@ -1,4 +1,5 @@
-user_age=int(input("pls enter ur age here:"))
-if user_age>10:
-    print("u r under 10")
-elif user_age
+age=int(input("enetr ur age here :"))
+if age>=10 and age<=20:
+    print("u r between the age of 10 and 20")
+else:
+    print("not between the age of 10 and 20")

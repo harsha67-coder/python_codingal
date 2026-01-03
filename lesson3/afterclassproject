@@ -1,3 +1,5 @@
+str upper_text
 wish_text=str(input("enter congradulating text here :"))
+
 wish_text=wish_text.replace(upper_text,upper_text.upper())
 print(wish_text)
