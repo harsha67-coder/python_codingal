@@ -1,0 +1,11 @@
+n=int(input("enter the number of elements on the list here :"))
+num_list=[]
+count=0
+for i in range(1,n+1):
+    value=int(input("enter thr values/elements here:"))
+    num_list.append(value)
+print(num_list)
+for i in num_list:
+    if i>0:
+        count=count+1
+print("count of positive nums = ",count)

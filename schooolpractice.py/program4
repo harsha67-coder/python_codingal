@@ -1,0 +1,6 @@
+n=eval(input("enter the list here :"))
+choice=input("enter the name to search for in the list here :")
+if choice in n:
+    print("yes ,it is present ",choice)
+else:
+    print("nahi bhai")

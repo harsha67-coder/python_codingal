@@ -1,0 +1,7 @@
+n=int(input("enter the number of elements on the list here :"))
+num_list=[]
+for i in range(1,n+1):
+    value=int(input("enter the values/elements here:"))
+    num_list.append(value)
+print(num_list)
+print(sum(num_list))
