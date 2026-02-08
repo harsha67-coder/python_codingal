@@ -1,0 +1,6 @@
+sen=input("enter a sentence here :")
+letter=input("enter a specific letter to check if it is in the sentence")
+for i in sen:
+    if i==letter:
+        print("letter",letter,"is found")
+        break
