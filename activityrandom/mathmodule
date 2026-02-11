@@ -1,0 +1,8 @@
+import math
+
+num=math.ceil(7.8)
+print("the ceil value for 7.8 is ",num)
+num=math.floor(6.7)
+print("the floor value for the value 6.7 is ",num)
+num=math.factorial(4)#multiplies each number below the specific numeber ex:3=3*2*1
+print("the factorial value for the value 4 is ",num)
