@@ -1,0 +1,19 @@
+import random
+
+playing=True
+num=int(random.randint(0,10))
+print("i am thinking of a number between 0,9 guess what?")
+while playing:
+    try:
+        guess=int(input("enter ur guess here:"))
+    except:
+        print("type valid number")
+        continue
+    if num==guess:
+        print("u won!wow u really are very smart")
+    elif num>guess:
+        print("go higher")
+    elif num<guess:
+        print("go lower")
+    else:
+        print("invalid input")
