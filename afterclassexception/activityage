@@ -1,0 +1,25 @@
+age=input("enter ur age here:")
+
+try:
+    if age.isalpha()==True:
+        print("type proper age(no alphabets allowed):")
+
+    elif age.isalnum()==True:
+        print("type proper age(no alphanumeric allowed):")
+  
+    elif float(age):
+        print("type proper age(no decimals allowed):")
+        
+    elif age.isdigit()==True and age>30 and age%2==0:
+        print("age is just a number keep working!! and ur age is an even number aswell")
+
+    elif age.isdigit()==True and age>20 and age%2!=0:
+        print("good age ,aim high and work hard ur age is a odd number aswell")
+
+    else:
+        print("invalid input")
+       
+
+except ValueError:
+    print("Age should be integer")
+    
