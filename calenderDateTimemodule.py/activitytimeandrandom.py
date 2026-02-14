@@ -10,7 +10,7 @@ def getrandomdate(start_time,end_time):
     randomtime = start_time+randomdate*(start_time-end_time)
     randomdaydate=time.strfttime(dateformat,time.localtime(randomtime)) 
     return randomdaydate
-print("randomdate=",getrandomdate,("1/1/2027")("1/1/2028"))
+print("randomdate=",getrandomdate("1/1/2027","1/1/2028"))
 
 
     
