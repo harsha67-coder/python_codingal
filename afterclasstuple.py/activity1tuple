@@ -1,0 +1,7 @@
+import math
+
+print("Numbers in a tuple")
+tup1=(4,3,2)
+print(tup1)
+tup3=math.prod(tup1)
+print("product of the tuple is",tup3)
