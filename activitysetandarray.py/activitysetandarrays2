@@ -1,0 +1,6 @@
+set1={"black","green","dark blue","violet"}
+set2= {"black","yellow","orange","pink"}
+set3=set1.union(set2)
+print(set3)
+set4=set1.intersection(set2)
+print(set4)
