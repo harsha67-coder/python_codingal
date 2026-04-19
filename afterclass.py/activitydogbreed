@@ -1,0 +1,14 @@
+class dog:
+    animal=""
+    def __init__(self,breed,colour):
+        self.breed=breed
+        self.colour=colour
+        print(self.breed)
+        print(self.colour)
+dog1=dog("husky","white")
+dog2=dog("german shephard","golden")
+
+
+        
+
+        
